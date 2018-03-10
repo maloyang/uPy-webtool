@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head> <title>upy webserver</title> </head>
+<center><h2>upy webserver</h2></center>
+<h3>
+webREPL: <a href="http://micropython.org/webrepl/" target="_blank">webrepl</a>
+<br>
+Doc: <a href="https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html" target="_blank">Quick reference</a>
+</h3>
+<hr>
+
+<form>
+<b>LED (D4):</b><br>
+<button name="LED" value="ON" type="submit">ON</button><br>
+<button name="LED" value="OFF" type="submit">OFF</button><br>
+</form>
+
+<form>
+<b>Buzzer (D2):</b><br>
+<button name="buzzer" value="on" type="submit">ON</button><br>
+<button name="buzzer" value="off" type="submit">OFF</button><br>
+<button name="buzzer" value="play" type="submit">Play</button><br>
+</form>
+
+<form>
+<b>T/H sensor (D3):</b><br>
+<button name="th_sensor" value="read" type="submit">Read</button><br>
+T=?degree
+</form>
+
+<form>
+<b>Servo Motor (D5):</b><br>
+<button name="servo" value="0" type="submit">Turn to 0</button><br>
+<button name="servo" value="90" type="submit">Turn to 90</button><br>
+<button name="servo" value="180" type="submit">Turn to 180</button><br>
+</form>
+
+<form>
+<b>Servo Motor 2 (D6):</b><br>
+<button name="servo2" value="0" type="submit">Turn to 0</button><br>
+<button name="servo2" value="90" type="submit">Turn to 90</button><br>
+<button name="servo2" value="180" type="submit">Turn to 180</button><br>
+</form>
+
+<form>
+<b>Servo Motor 3 (D7):</b><br>
+<button name="servo3" value="0" type="submit">Turn to 0</button><br>
+<button name="servo3" value="90" type="submit">Turn to 90</button><br>
+<button name="servo3" value="180" type="submit">Turn to 180</button><br>
+</form>
+
+<form>
+<b>Servo Motor 4 (D8):</b><br>
+<button name="servo4" value="0" type="submit">Turn to 0</button><br>
+<button name="servo4" value="90" type="submit">Turn to 90</button><br>
+<button name="servo4" value="180" type="submit">Turn to 180</button><br>
+</form>
+
+<hr>
+GPIO Info. :<br>
+<pre>
+D0 = 16
+D1 = 5  #PWM, None
+D2 = 4  #PWM, Buzzer
+D3 = 0  #PWM, T/H sensor, DHT-11
+D4 = 2  #PWM, #Led on board
+D5 = 14 #PWM, Servo
+D6 = 12 #PWM, Servo2
+D7 = 13 #PWM, Servo3
+D8 = 15 #PWM, Servo4
+</pre>
+
+</html>
